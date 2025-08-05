@@ -319,4 +319,28 @@ const TokensPanel = () => {
               {nftBalance && totalSupply && Number(totalSupply) > 0 && (
                 <div className="flex justify-between">
                   <span className="text-gray-600">Participação:</span>
-                  <span className="
+                  <span className="font-semibold">
+                    {((Number(nftBalance) / Number(totalSupply)) * 100).toFixed(1)}%
+                  </span>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Help Info */}
+          <div className="bg-blue-50 rounded-lg p-4 border border-blue-200">
+            <h4 className="font-medium text-blue-800 mb-2">Sobre NFTs</h4>
+            <div className="text-sm text-blue-700 space-y-1">
+              <p>• Cada NFT é único e não pode ser duplicado</p>
+              <p>• Você pode transferir para qualquer endereço</p>
+              <p>• As transferências são permanentes</p>
+              <p>• Verifique sempre o endereço de destino</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default TokensPanel;
