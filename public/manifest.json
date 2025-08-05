@@ -1,0 +1,53 @@
+{
+  "short_name": "NFT DApp",
+  "name": "NFT DApp - Compre NFTs com Tokens ERC-20",
+  "description": "Plataforma descentralizada para compra de NFTs usando tokens ERC-20",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#3b82f6",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "pt-BR",
+  "categories": ["finance", "utilities", "blockchain"],
+  "shortcuts": [
+    {
+      "name": "Comprar NFT",
+      "short_name": "Comprar",
+      "description": "Comprar NFTs com tokens ERC-20",
+      "url": "/users",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Meus NFTs",
+      "short_name": "NFTs",
+      "description": "Ver e gerenciar meus NFTs",
+      "url": "/tokens",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Administração",
+      "short_name": "Admin",
+      "description": "Painel administrativo",
+      "url": "/admin",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    }
+  ]
+}
